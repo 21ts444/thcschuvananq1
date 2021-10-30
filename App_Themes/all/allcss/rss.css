@@ -1,0 +1,170 @@
+﻿
+.mid_header {
+    float: left;
+    padding: 3px 0 4px;
+    position: relative;
+    width: 100%;
+}
+
+.right {
+    float: right;
+}
+
+.img_rss {
+    font-size: 0;
+    line-height: 0;
+}
+
+.left {
+    float: left;
+}
+
+a {
+    color: #000;
+    outline: 1px none;
+    text-decoration: none;
+}
+
+img {
+    border: 0 none;
+    font-size: 0;
+    line-height: 0;
+    max-width: 100%;
+}
+
+.block_breakumb_left {
+    float: left;
+}
+
+.list_arrow_breakumb li {
+    float: left;
+}
+
+    .list_arrow_breakumb li.start a {
+        border-left: 3px solid #9f224e;
+        color: #9f224e;
+        font-weight: 700;
+        padding: 0 8px;
+    }
+
+    .list_arrow_breakumb li a {
+        background: #eceeed none repeat scroll 0 0;
+        display: block;
+        float: left;
+        font: 400 14px/25px arial;
+        height: 25px;
+        padding: 0 5px;
+        white-space: nowrap;
+    }
+
+.list_arrow_breakumb .arrow_breakumb {
+    background: rgba(0, 0, 0, 0) url("../../../../st.f3.vnecdn.net/responsive/c/v23/images/graphics/icon_total_01.png") no-repeat scroll -287px -20px;
+    display: block;
+    float: left;
+    height: 25px;
+    width: 13px;
+}
+
+#rsspage.line_page {
+    background: rgba(0, 0, 0, 0) url("../../../../st.f3.vnecdn.net/responsive/c/v23/images/graphics/bg_1x1_gray.gif") repeat-y scroll 68% 0;
+}
+
+#rsspage {
+    margin-bottom: 20px;
+}
+
+.width_common {
+    float: left;
+    width: 100%;
+}
+
+.block_rss {
+    width: 67%;
+}
+
+#rsspage .block_rss .title_block {
+    margin-bottom: 20px;
+}
+
+.title_block {
+    border-bottom: 1px dotted #e2e2e3;
+    font: 700 14px arial;
+    padding-bottom: 10px;
+}
+
+.line_mid_670 {
+    background: rgba(0, 0, 0, 0) url("../../../../st.f3.vnecdn.net/responsive/c/v23/images/graphics/bg_1x1_gray.gif") repeat-y scroll 50% 0;
+}
+
+#rsspage .list_item_rss {
+    width: 48%;
+}
+
+.list_item_rss {
+    float: left;
+    width: 31%;
+}
+
+    .list_item_rss li {
+        border-bottom: 1px dotted #e2e2e3;
+        float: left;
+        margin: 0 0 5px;
+        padding: 0 0 5px;
+        width: 100%;
+    }
+
+        .list_item_rss li a {
+            float: left;
+            font: 400 14px arial;
+        }
+
+            .list_item_rss li a.ico_respone_rss {
+                float: right;
+            }
+
+.ico_respone_rss {
+    background-position: -202px 0;
+    height: 18px;
+    width: 50px;
+}
+
+.icon_responsive {
+    background: rgba(0, 0, 0, 0) url("images/icons/icon_resonesive.html") no-repeat scroll 0 0;
+    display: inline-block;
+    font-size: 0;
+    height: 20px;
+    line-height: 0;
+}
+
+#rsspage .list_right {
+    float: right;
+}
+
+.block_txt_right_rss {
+    width: 31%;
+}
+
+.title_block {
+    border-bottom: 1px dotted #e2e2e3;
+    font: 700 14px arial;
+    padding-bottom: 10px;
+}
+
+.txt_block_rss {
+    padding: 10px 0 0;
+}
+
+    .txt_block_rss p {
+        font: 400 12px arial;
+        padding: 0 0 10px;
+    }
+
+.title_block {
+    border-bottom: 1px dotted #e2e2e3;
+    font: 700 14px arial;
+    padding-bottom: 10px;
+}
+
+.txt_block_rss {
+    padding: 10px 0 0;
+}

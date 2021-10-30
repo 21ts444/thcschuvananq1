@@ -1,0 +1,222 @@
+﻿
+#MainContent {
+   
+    padding-right: 5px;
+}
+.qitimedetail {
+    color: #666;
+    font-size: .875rem;
+    line-height: 1rem;
+    margin-bottom: 12px;
+}
+.qicontentdetail {
+    text-align: initial !important;
+}
+.qisummarydetail {
+    color: #444;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+p.qitinlienquan_tieude {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+    color: #c02a29;
+}
+.qihome_tieudebg {
+    background-image:none;
+}
+.qitinlienquan_tieudebg {
+    padding: 5px;
+    width: 100%;
+}
+h5.qititle {
+    color: #000000;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+p.qisummary {
+    color: #333;
+    font-weight: normal;
+}
+.qicontentdetail * {
+    font-size: 17px;
+    line-height: 26px;
+    /*  font-family: initial;*/
+    font-family: "Noto Serif",serif !important;
+    color: #161616;
+    max-width: 100% !important;
+}
+.qicontentdetail > img
+{
+    max-width:100%;
+    padding:10px;
+}
+.qitieudechitiet {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+.hienthixemtruoc {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+    font-weight: bold;
+}
+
+.noidungxemtruoc1 {
+    margin-top: 10px;
+}
+
+.hienthixemtruoc:hover {
+    cursor: zoom-in;
+}
+
+.noidungxemtruoc {
+    display: none;
+}
+
+.anhnoidung {
+    cursor: zoom-in;
+    max-width: 100% !important;
+    margin: 5px 0px;
+    width: auto !important;
+}
+
+.ContentODM * {
+    max-width: 1000px !important;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    #myImg:hover {
+        opacity: 0.7;
+    }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    margin-top: 10px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff !important;
+    font-size: 80px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+.full-img {
+    width: 100% !important;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+.chititiettin
+{
+    margin:10px;
+}
+.qitieudetincungchuyenmuc {
+    color: #004580;
+    font-size: 30px;
+    margin-top: 15px;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+}
+p.qitinlienquan_tieude { 
+    margin-top:10px;
+    font-size: 21px;
+    color: #004580;
+}
+.qibootomSpace {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.p-2.qiauthor {
+    font-size: 13px;
+}
+.p-2.qinguontin {
+    font-size: 13px;
+}
+.col.qibinhluan {
+    padding: 10px;
+}
+.qibinhluan .btn-info {
+    background-color: #004580 !important;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+
+.qibinhluan * {
+    font-size:13px;
+}
